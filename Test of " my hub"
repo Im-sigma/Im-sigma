@@ -1,0 +1,11 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "My Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"}) 
+
+--tabs
+local Tab = Window:MakeTab({ 	Name = "Test", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+--sections
+local Section = test:AddSection({ 	Name = "Section" })
+
+end
+OrionLib:Init()
